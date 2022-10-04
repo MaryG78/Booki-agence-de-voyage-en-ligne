@@ -296,6 +296,7 @@ header a:hover {
 #accomodations > a {
   font-weight: bold;
   font-size: 1.1em;
+  margin: 20px 0;
 }
 
 /*       MOST POPULAR    */
