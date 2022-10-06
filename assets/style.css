@@ -117,11 +117,15 @@ header a:hover {
 #search-bar input {
   width: 100%;
   max-width: 214px;
+
+  border: 1px solid #f2f2f2;
+  padding: 15px 24px;
+}
+
+#search-bar input::placeholder {
   font-size: 1.1em;
   color: black;
   font-weight: bold;
-  border: 1px solid #f2f2f2;
-  padding: 15px 24px;
 }
 
 #search-bar button {
@@ -361,7 +365,6 @@ header a:hover {
 #most-popular figcaption {
   display: flex;
   flex-direction: column;
-  width: 59%;
   align-items: flex-start;
   padding-left: 8px;
 }
@@ -533,15 +536,15 @@ footer {
     flex-direction: column;
   }
 
+  #most-popular figcaption {
+    height: 100px;
+  }
+
   #most-popular img {
     width: 100%;
     height: 141px;
     object-fit: cover;
     border-radius: 12px 12px 0 0;
-  }
-
-  #most-popular figcaption {
-    width: 100%;
   }
 
   #footer {
@@ -676,6 +679,7 @@ footer {
 
   #most-popular article {
     margin-bottom: 18px;
+    
   }
 
   #accomodations {
