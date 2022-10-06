@@ -343,7 +343,7 @@ header a:hover {
   background-color: white;
   border-radius: 16px;
   box-shadow: 0px 5px 12px #d2cfcf52;
-  padding: 4px;
+  padding: 5px;
   flex: 1;
 }
 
@@ -354,7 +354,8 @@ header a:hover {
 
 #most-popular img {
   display: flex;
-  width: 40%;
+  width: 142px;
+  min-width: 142px;
   height: 150px;
   border-radius: 12px 0 0 12px;
   object-fit: cover;
@@ -404,6 +405,7 @@ header a:hover {
   height: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 20px;
+  max-height: 455px;
 }
 
 .single-img img {
@@ -418,6 +420,7 @@ header a:hover {
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
+  max-height: 455px;
 }
 
 .double-img figure {
@@ -629,6 +632,7 @@ footer {
 
   #search-bar input {
     width: 100%;
+    padding: 15px 23px;
   }
 
   #search-bar span {
@@ -648,6 +652,9 @@ footer {
     padding: 15px 0 15px 0;
     border-radius: 20px;
     margin-left: -10px;
+  }
+  #search-bar button span {
+    font-size: 0.9em;
   }
 
   #filters p {
@@ -671,6 +678,10 @@ footer {
 
   #most-popular {
     border-radius: 0;
+  }
+
+  #most-popular img {
+    min-height: 157px;
   }
 
   #most-popular-block {
